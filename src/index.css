@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+h1 {
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+
+input,
+label,
+button {
+  display: block;
+  border: 1px solid silver;
+  padding: 10px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+input[type=checkbox] {
+  padding: 0;
+}
+
+.add-todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-todo__input {
+  width: 100%;
+}
+
+.todos {
+  margin-top: 20px;
+}
+.todo-list {
+  margin-top: 20px;
+  border-top: 3px solid silver;
+}
+.todo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.todo-item:nth-child(even) {
+  background: rgb(224, 224, 224);
+}
+.todo-item__complited {
+
+}
+.todo-item__number {}
+.todo-item__text {}
+
+.user-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+
+.todo-item__checked {
+  font-style: italic;
+  text-decoration: line-through;
+  color: silver;
+}
+.edit-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
